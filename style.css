@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+   
+}
+
+.all-content {
+    background-color: hsl(0, 0%, 12%);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    max-width: 300px;
+    border-radius: 8px;
+    padding: 35px 35px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    
+   
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+    margin: 7px;
+    margin-top: 20px;
+}
+
+.locate {
+    color: hsl(75, 94%, 57%);
+    
+}
+
+.text {
+    color: hsl(0, 0%, 100%);
+    margin: 20px;
+}
+
+.links{
+    color: #000000;
+	width: 100%;
+	cursor: pointer;
+    
+}
+
+
+
+.links .one {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 7px;
+    padding: 12px;
+    transition: all 0.3s ease-in;
+	
+}
+
+.links .two {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 7px;
+    margin-top: 12px;
+    padding: 12px;
+    
+}
+
+.links .three {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 7px;
+    margin-top: 12px;
+    padding: 12px;
+}
+
+.links .four {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 7px;
+    margin-top: 12px;
+    padding: 12px;
+}
+
+.links .five {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 7px;
+    margin-top: 12px;
+    padding: 12px;
+}
+.links .one:hover{
+    background-color: hsl(75, 94%, 57%);
+	color: #000;
+    font-weight: bold
+}
+.links .two:hover{
+    background-color: hsl(75, 94%, 57%);
+	color: #000;
+    font-weight: bold
+}
+.links .three:hover{
+    background-color: hsl(75, 94%, 57%);
+	color: #000;
+    font-weight: bold
+}
+.links .four:hover{
+    background-color: hsl(75, 94%, 57%);
+	color: #000;
+    font-weight: bold
+}
+.links .five:hover{
+    background-color: hsl(75, 94%, 57%);
+	color: #000;
+    font-weight: bold
+}
+
+.image img {
+    border-radius: 100px;
+    margin: auto;
+    display: block;
+    max-width: 25%;
+}
+
+ul {
+    list-style-type: none
+}
